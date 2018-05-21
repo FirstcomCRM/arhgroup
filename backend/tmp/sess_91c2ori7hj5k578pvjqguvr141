@@ -1,0 +1,1 @@
+__flash|a:0:{}__id|i:3;getTotalDailyCashSales|d:1117.079999999999927240423858165740966796875;getTotalDailyCreditCardSales|i:0;getTotalDailyNetsSales|i:0;carplate|a:2:{s:1:"r";s:23:"reports/carplate-report";s:13:"SearchInvoice";a:6:{s:13:"customer_name";s:0:"";s:5:"plate";s:0:"";s:6:"date_a";s:0:"";s:6:"date_b";s:0:"";s:9:"branch_id";s:0:"";s:7:"user_id";s:1:"1";}}

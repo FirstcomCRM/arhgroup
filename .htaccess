@@ -1,0 +1,12 @@
+# prevent directory listings
+Options -Indexes
+IndexIgnore */*
+
+# follow symbolic links
+Options FollowSymlinks
+RewriteEngine on
+RewriteRule ^system(/.+)?$ backend/web/$1 [L,PT]
+RewriteRule ^member(/.+)?$ frontend/web/$1 [L,PT]
+
+RewriteRule ^(.+)?$ backend/web/$1
+RewriteRule ^hr(/.+)?$ hr/ [L,PT]
